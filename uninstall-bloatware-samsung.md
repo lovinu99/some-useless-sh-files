@@ -21,25 +21,51 @@ To uninstall an app but keep its data
 
 example
 ```
-pm uninstall --user 0 com.samsung.android.kidsinstaller
-pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload
-pm uninstall --user 0 com.samsung.android.aremoji
-pm uninstall --user 0 com.sec.android.mimage.avatarstickers
-pm uninstall --user 0 com.samsung.android.aremojieditor
-pm uninstall --user 0 com.samsung.android.stickercenter
-pm uninstall --user 0 com.samsung.android.samsungpass
-pm uninstall --user 0 com.samsung.android.spay
-pm uninstall --user 0 com.samsung.android.spayfw
-pm uninstall --user 0 com.samsung.android.da.daagent
-pm uninstall --user 0 com.google.android.apps.youtube.music
-pm uninstall --user 0 com.google.ar.core
-pm uninstall --user 0 com.samsung.android.app.settings.bixby
-pm uninstall --user 0 com.samsung.android.bixby.wakeup
-pm uninstall --user 0 com.samsung.android.bixby.agent
-pm uninstall --user 0 com.samsung.android.bixbyvision.framework
-pm uninstall --user 0 com.samsung.android.arzone
-pm uninstall --user 0 com.samsung.android.tvplus
-pm uninstall --user 0 com.samsung.android.voc
-pm uninstall --user 0 com.samsung.android.scloud
-pm uninstall --user 0 com.samsung.android.sdk.handwriting
+
+pm uninstall -k --user 0 com.android.bookmarkprovider
+pm uninstall -k --user 0 com.android.dreams.basic
+pm uninstall -k --user 0 com.android.dreams.phototable
+pm uninstall -k --user 0 com.android.egg
+pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle
+pm uninstall -k --user 0 com.android.hotwordenrollment.xgoogle
+pm uninstall -k --user 0 com.android.wallpaper.livepicker
+pm uninstall -k --user 0 com.android.providers.partnerbookmarks
+pm uninstall -k --user 0 com.android.vpndialogs
+pm uninstall -k --user 0 com.google.mainline.adservices
+pm uninstall -k --user 0 com.google.android.adservices.api
+pm uninstall -k --user 0 com.google.android.apps.photos
+pm uninstall -k --user 0 com.google.android.apps.tachyon
+pm uninstall -k --user 0 com.google.android.feedback
+pm uninstall -k --user 0 com.google.android.googlequicksearchbox
+pm uninstall -k --user 0 com.google.android.marvin.talkback
+pm uninstall -k --user 0 com.google.android.printservice.recommendation
+pm uninstall -k --user 0 com.google.android.syncadapters.calendar
+pm uninstall -k --user 0 com.google.android.tts
+pm uninstall -k --user 0 com.google.android.apps.youtube.music
+pm uninstall -k --user 0 com.google.ar.core
+pm uninstall -k --user 0 com.sec.android.app.shealth
+pm uninstall -k --user 0 com.samsung.android.arzone
+pm uninstall -k --user 0 com.sec.android.app.samsungapps
+pm uninstall -k --user 0 com.samsung.android.dynamiclock
+pm uninstall -k --user 0 com.samsung.android.tvplus
+pm uninstall -k --user 0 com.samsung.android.app.watchmanagerstub
+pm uninstall -k --user 0 com.samsung.android.app.watchmanager
+pm uninstall -k --user 0 com.samsung.android.waterplugin
+pm uninstall -k --user 0 com.samsung.android.accessibility.talkback
+pm uninstall -k --user 0 com.sec.android.app.sbrowser
+pm uninstall -k --user 0 com.sec.android.easyMover.Agent
+pm uninstall -k --user 0 com.samsung.android.oneconnect
+pm uninstall -k --user 0 com.samsung.android.voc
+pm uninstall -k --user 0 com.samsung.android.app.dressroom
+pm uninstall -k --user 0 com.samsung.android.scloud
+pm uninstall -k --user 0 com.samsung.android.sdk.handwriting
+pm uninstall -k --user 0 com.samsung.android.universalswitch
+pm uninstall -k --user 0 com.samsung.safetyinformation
+pm uninstall -k --user 0 com.samsung.storyservice
+pm uninstall -k --user 0 com.samsung.android.service.aircommand
+pm uninstall -k --user 0 com.samsung.android.service.peoplestripe
+pm uninstall -k --user 0 com.samsung.android.app.appsedge
+pm uninstall -k --user 0 com.sec.android.dexsystemui
+pm uninstall -k --user 0 com.sec.android.desktopmode.uiservice
+pm uninstall -k --user 0 com.sec.android.app.desktoplauncher
 ```
