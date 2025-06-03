@@ -56,7 +56,6 @@ pm uninstall -k --user all com.sec.android.app.sbrowser  # Samsung Internet Brow
 pm uninstall -k --user all com.sec.android.easyMover.Agent  # Samsung Smart Switch
 pm uninstall -k --user all com.samsung.android.oneconnect  # SmartThings
 pm uninstall -k --user all com.samsung.android.voc  # Samsung Members (Customer Support)
-pm uninstall -k --user all com.samsung.android.app.dressroom  # AR Emoji Dress Room
 pm uninstall -k --user all com.samsung.android.scloud  # Samsung Cloud
 pm uninstall -k --user all com.samsung.android.sdk.handwriting  # Samsung Handwriting SDK
 pm uninstall -k --user all com.samsung.android.universalswitch  # Universal Switch (Accessibility)
