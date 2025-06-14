@@ -69,5 +69,16 @@ pm uninstall -k --user all com.sec.android.desktopmode.uiservice  # Samsung DeX 
 pm uninstall -k --user all com.sec.android.app.desktoplauncher  # Samsung DeX Launcher
 pm uninstall -k --user all com.samsung.android.bixby.agent  # Bixby Voice
 pm uninstall -k --user all com.facebook.appmanager  # Facebook App Manager
-
+pm uninstall -k --user all com.google.android.projection.gearhead
+pm uninstall -k --user all com.samsung.android.app.simplesharing
+pm uninstall -k --user all com.samsung.android.scloud
+pm uninstall -k --user all com.sec.android.app.samsungapps
+pm uninstall -k --user all com.samsung.android.avatar.avatarprovider
+pm uninstall -k --user all com.sec.android.mimage.avatarstickers
+pm uninstall -k --user all com.samsung.android.kidsinstaller
+pm uninstall -k --user all com.samsung.android.kidsmode
+pm uninstall -k --user all com.samsung.android.samsungpass
+pm uninstall -k --user all com.samsung.android.spay
+pm uninstall -k --user all com.samsung.android.app.camera.sticker.stamp.preload
+pm uninstall -k --user all com.sec.android.app.billing
 ```
