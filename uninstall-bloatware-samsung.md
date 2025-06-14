@@ -44,7 +44,6 @@ pm uninstall --user 0 com.android.dreams.phototable  # Photo Screensaver (Daydre
 pm uninstall --user 0 com.android.egg  # Android Easter Egg
 pm uninstall --user 0 com.android.hotwordenrollment.okgoogle  # OK Google Enrollment
 pm uninstall --user 0 com.android.hotwordenrollment.xgoogle  # Google Assistant Enrollment
-pm uninstall --user 0 com.android.wallpaper.livepicker  # Live Wallpaper Picker
 pm uninstall --user 0 com.android.providers.partnerbookmarks  # Partner Bookmarks Provider
 pm uninstall --user 0 com.android.vpndialogs  # VPN Dialogs
 pm uninstall --user 0 com.google.mainline.adservices  # Google Ad Services
@@ -62,7 +61,6 @@ pm uninstall --user 0 com.google.ar.core  # Google ARCore
 pm uninstall --user 0 com.sec.android.app.shealth  # Samsung Health
 pm uninstall --user 0 com.samsung.android.arzone  # AR Zone
 pm uninstall --user 0 com.sec.android.app.samsungapps  # Galaxy Store
-pm uninstall --user 0 com.samsung.android.dynamiclock  # Dynamic Lock Screen
 pm uninstall --user 0 com.samsung.android.tvplus  # Samsung TV Plus
 pm uninstall --user 0 com.samsung.android.app.watchmanagerstub  # Samsung Watch Manager Stub
 pm uninstall --user 0 com.samsung.android.app.watchmanager  # Samsung Watch Manager
@@ -101,6 +99,11 @@ pm uninstall --user 0 com.sec.android.app.kidshome
 pm uninstall --user 0 com.samsung.android.spayfw
 pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload
 pm uninstall --user 0 com.samsung.android.stickercenter
+
+
+// Wallpaper setting
+pm uninstall --user 0 com.samsung.android.dynamiclock  # Dynamic Lock Screen
+pm uninstall --user 0 com.android.wallpaper.livepicker  # Live Wallpaper Picker
 ```
 
 ## in case get uninstall for all user:
