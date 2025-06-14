@@ -1,6 +1,9 @@
 # Uninstall Bloatware on samsung.
 
     > https://technastic.com/freeze-uninstall-system-apps-android/
+## Get ADB
+    https://developer.android.com/tools/releases/platform-tools?hl=vi
+download then extract, open cmd at the same folder
 
 ## 1. Launch PowerShell with the path of the ‘platform-tools‘ folder as described above.
 Connect your Android device to the computer and execute the following command.
@@ -82,3 +85,8 @@ pm uninstall -k --user all com.samsung.android.spay
 pm uninstall -k --user all com.samsung.android.app.camera.sticker.stamp.preload
 pm uninstall -k --user all com.sec.android.app.billing
 ```
+
+in case get error : 
+        > Failure [DELETE_FAILED_INTERNAL_ERROR]
+
+try replace '--user all' with '--user 0'
