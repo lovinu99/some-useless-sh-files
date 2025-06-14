@@ -1,6 +1,18 @@
 # Uninstall Bloatware on samsung.
 
-    > https://technastic.com/freeze-uninstall-system-apps-android/
+-----
+
+# Step:
+```
+1. get adb: download for windows > extract >  open cmd
+2. conncet phone > enable 'Developer option' > if launch via cmd, get the name of device is success
+3. uninstall app in the list below
+4. restart phone
+```
+
+-----
+
+
 ## Get ADB
     https://developer.android.com/tools/releases/platform-tools?hl=vi
 download then extract, open cmd at the same folder
@@ -8,7 +20,9 @@ download then extract, open cmd at the same folder
 ![image](https://github.com/user-attachments/assets/b2a2775e-8cae-4b99-b366-48d50ccfae7f)
 
 
-## 1. Launch PowerShell with the path of the ‘platform-tools‘ folder as described above.
+## Launch PowerShell with the path of the ‘platform-tools‘ folder as described above.
+
+
 Connect your Android device to the computer and execute the following command.
 
     > adb shell
@@ -22,7 +36,7 @@ To uninstall an app but keep its data
 
     pm uninstall -k --user 0 <package-name>
 
-example
+## List  
 ```
 pm uninstall --user 0 com.android.bookmarkprovider  # Bookmark Provider
 pm uninstall --user 0 com.android.dreams.basic  # Basic Screensaver (Daydream)
