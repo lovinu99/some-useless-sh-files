@@ -36,7 +36,7 @@ To uninstall an app but keep its data
 
     pm uninstall -k --user 0 <package-name>
 
-## List  
+## Safe to remove 
 ```
 pm uninstall --user 0 com.android.bookmarkprovider  # Bookmark Provider
 pm uninstall --user 0 com.android.dreams.basic  # Basic Screensaver (Daydream)
@@ -98,9 +98,14 @@ pm uninstall --user 0 com.sec.android.app.kidshome
 pm uninstall --user 0 com.samsung.android.spayfw
 pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload
 pm uninstall --user 0 com.samsung.android.stickercenter
+```
 
+## Can remove but not recommend 
+```
+// VPN, necessary when using thirtparty vpn app 
+pm uninstall --user 0 com.android.vpndialogs  # VPN Dialogs
 
-// Wallpaper setting
+// Wallpaper setting, allow android to set wallpaper, auto swich lock screen
 pm uninstall --user 0 com.samsung.android.dynamiclock  # Dynamic Lock Screen
 pm uninstall --user 0 com.android.wallpaper.livepicker  # Live Wallpaper Picker
 ```
