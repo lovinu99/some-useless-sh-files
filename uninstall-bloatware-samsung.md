@@ -45,7 +45,6 @@ pm uninstall --user 0 com.android.egg  # Android Easter Egg
 pm uninstall --user 0 com.android.hotwordenrollment.okgoogle  # OK Google Enrollment
 pm uninstall --user 0 com.android.hotwordenrollment.xgoogle  # Google Assistant Enrollment
 pm uninstall --user 0 com.android.providers.partnerbookmarks  # Partner Bookmarks Provider
-pm uninstall --user 0 com.android.vpndialogs  # VPN Dialogs
 pm uninstall --user 0 com.google.mainline.adservices  # Google Ad Services
 pm uninstall --user 0 com.google.android.adservices.api  # Google Ad Services API
 pm uninstall --user 0 com.google.android.apps.photos  # Google Photos
