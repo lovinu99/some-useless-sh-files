@@ -104,6 +104,7 @@ pm uninstall --user 0 com.samsung.android.stickercenter
 ```
 // VPN, necessary when using thirtparty vpn app 
 pm uninstall --user 0 com.android.vpndialogs  # VPN Dialogs
+cmd package install-existing com.android.vpndialogs # Cài lại
 
 // Wallpaper setting, allow android to set wallpaper, auto swich lock screen
 pm uninstall --user 0 com.samsung.android.dynamiclock  # Dynamic Lock Screen
