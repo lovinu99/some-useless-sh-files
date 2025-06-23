@@ -47,6 +47,18 @@ To enable PSReadLine customization, you need to edit the appropriate PowerShell 
 ## 3. Restart PowerShell
 After making the changes, restart PowerShell to apply the new settings.
 
+## 3.1 If get error 
+```powershell
+...
+cannot be loaded because running scripts is disabled
+on this system
+...
+```
+
+run 
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 ## 4. It should look like this
 ![chrome-capture-2025-2-24](https://github.com/user-attachments/assets/3375e368-ff74-48f3-ab60-855fb8ef9dd9)
